@@ -139,7 +139,7 @@ new Vue({
     clickProgress(e) {
       this.isTimerPlaying = true;
       this.audio.pause();
-      this.updateBar(e.pageX);
+      this.updateBar(e.screenX);
     },
     prevTrack() {
       this.transitionName = "scale-in";
